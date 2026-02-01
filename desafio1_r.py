@@ -77,7 +77,7 @@ while True:
     print()
     for i in range(catidade):
         print(f"O Herói de nome {nome[i]} está no nível {niveis[i]} com {xps[i]} de XP")
-        print(mensagem)
+        print(mensagem[i])
 
     #adicionado espaço entre uma interação e outra para facilitar a leitura
     #Ao invés de colocar um monte de print() utilizo o. \n para pular linha
